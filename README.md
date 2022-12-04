@@ -1,2 +1,2 @@
-# django_crud_auth
-Django app deploying in render.com for free
+# django api test deply
+Django api for testing deploy in render.com for free
