@@ -1,0 +1,319 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$Mb2UYECdkwOksQGb6DhyWE$5eXdUqOeb02gJ7zj5w8YKuDMj9OF9X9tTFTB9RBMmRo=",
+            "last_login": "2020-12-12T15:52:20.781Z",
+            "is_superuser": true,
+            "username": "juanb",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-12-12T15:22:16.079Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$I0Ce4wny6IrQ$E3g/NYl2lhzrTtNzLzihVwUzp/E//6DjGJVPHZ4p9JY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "antonio",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-12-13T09:22:19.719Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$JDlwKP8EZA0zEuZCmaIX3s$OKjsvG5JvtiwooOqt8AFHGIwWfYDwh1zza9CWXwOD8k=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "fetlix",
+            "first_name": "",
+            "last_name": "",
+            "email": "fetlix@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-11-25T04:24:40.461Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 1,
+        "fields": {
+            "title": "spiderman",
+            "description": "Un hombre ara±a"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 2,
+        "fields": {
+            "title": "superman",
+            "description": "Un hombre s·per fuerte"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 3,
+        "fields": {
+            "title": "batman",
+            "description": "el hombre murcielago"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 4,
+        "fields": {
+            "title": "hulk",
+            "description": "un hombre verde"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 5,
+        "fields": {
+            "title": "catwoman",
+            "description": "La mujer gato"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 6,
+        "fields": {
+            "title": "wonderwoman",
+            "description": "La mujer maravilla"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 7,
+        "fields": {
+            "title": "stranger things",
+            "description": "Cosas extra±as en netflix siempre pasan"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 9,
+        "fields": {
+            "title": "daredevil",
+            "description": "Un superheroe ciego que salva al mundo"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 10,
+        "fields": {
+            "title": "como conocÝ a vuestra madre",
+            "description": "Un hombre explica como conoci¾ a su mujer"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 11,
+        "fields": {
+            "title": "luke cage",
+            "description": "hombre mßs duro del mundo"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 12,
+        "fields": {
+            "title": "aquaman",
+            "description": "El hombre pez"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 13,
+        "fields": {
+            "title": "como conocÝ a vuestra madre 2",
+            "description": "Un hombre explica como conoci¾ a su mujer 2"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 14,
+        "fields": {
+            "title": "Vikings",
+            "description": "awesome"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 15,
+        "fields": {
+            "title": "Game of Thrones",
+            "description": "godless"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 16,
+        "fields": {
+            "title": "Game of Thrones",
+            "description": "godless"
+        }
+    },
+    {
+        "model": "series.serie",
+        "pk": 17,
+        "fields": {
+            "title": "Game of Thrones",
+            "description": "godless"
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 1,
+        "fields": {
+            "number": 1,
+            "name": "el comiendo del hombre ara±a",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 2,
+        "fields": {
+            "number": 2,
+            "name": "el primer combate de spiderman",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 3,
+        "fields": {
+            "number": 2,
+            "name": "superman vs spiderman",
+            "serie": 2
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 4,
+        "fields": {
+            "number": 1,
+            "name": "La leyenda del hombre murcielago",
+            "serie": 3
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 5,
+        "fields": {
+            "number": 2,
+            "name": "aguaman el hombre pez",
+            "serie": 12
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 6,
+        "fields": {
+            "number": 2,
+            "name": "godless",
+            "serie": 2
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 7,
+        "fields": {
+            "number": 3,
+            "name": "godless",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 1,
+        "fields": {
+            "number": 1,
+            "name": "el comiendo del hombre ara±a",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 2,
+        "fields": {
+            "number": 2,
+            "name": "el primer combate de spiderman",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 3,
+        "fields": {
+            "number": 2,
+            "name": "superman vs spiderman",
+            "serie": 2
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 4,
+        "fields": {
+            "number": 1,
+            "name": "La leyenda del hombre murcielago",
+            "serie": 3
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 5,
+        "fields": {
+            "number": 2,
+            "name": "aguaman el hombre pez",
+            "serie": 12
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 6,
+        "fields": {
+            "number": 2,
+            "name": "godless",
+            "serie": 2
+        }
+    },
+    {
+        "model": "series.episode",
+        "pk": 7,
+        "fields": {
+            "number": 3,
+            "name": "godless",
+            "serie": 1
+        }
+    },
+    {
+        "model": "series.scoreepisode",
+        "pk": 1,
+        "fields": {
+            "episode": 1,
+            "user": 3,
+            "score": 3
+        }
+    }
+]
